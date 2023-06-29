@@ -7,7 +7,7 @@
         <meta name="author" content="">
         <link rel="icon" href="{{asset('panel/assets/images/favicon.png')}}" >
         <!--Page title-->
-        <title>Admin Asuma Learning</title>
+        <title>Seller Asuma Learning</title>
         <!--bootstrap-->
         <link rel="stylesheet" href="{{asset('panel/assets/css/bootstrap.min.css')}}">
         <!--font awesome-->
@@ -53,7 +53,7 @@
 
 
 
-                            <form action="{{route('admin.login')}} " class="d-block" method="post">
+                            <form action="{{route('seller.login')}} " class="d-block" method="post">
                               @csrf
                                 
                                 <div class="form-group icon_parent">
@@ -76,7 +76,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <a class="registration" href=" {{route('admin.register')}}">Create new account</a><br>
+                                    <a class="registration" href=" {{route('seller.register')}}">Create new account</a><br>
                                     <a href=" " class="text-white">I forgot my password</a>
                                     
                                     <button type="submit" class="btn btn-blue">Login</button>
